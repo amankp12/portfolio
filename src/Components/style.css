@@ -1,0 +1,30 @@
+.parallax-effect-glare-scale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  margin: 40px;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(
+      to right,
+      rgba(0, 0, 139, 0.813),
+      rgb(173, 96, 212)
+    )
+    1;
+  transform-style: preserve-3d;
+}
+
+.skills {
+  background-color: rgba(240, 255, 255, 0.279);
+  border: solid;
+  border-width: 2px;
+}
+
+.border-pink {
+  border-radius: 50px;
+  border: 2px solid transparent;
+  background: linear-gradient(45deg, rgb(112, 142, 155), blue) border-box;
+}
